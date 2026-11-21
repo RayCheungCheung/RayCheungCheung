@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">QuickAudio project visual</title>
+  <desc id="desc">An audio routing diagram with waveform, output devices, Windows Core Audio interface, and keyboard shortcut.</desc>
+  <defs>
+    <pattern id="signalGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M16 0 L0 0 0 16" fill="none" stroke="#242B2E" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" rx="18" fill="#0B0E10"/>
+  <rect x="1" y="1" width="798" height="498" rx="17" fill="none" stroke="#2B3235"/>
+  <rect x="1" y="1" width="798" height="498" rx="17" fill="url(#signalGrid)" opacity="0.28"/>
+
+  <path d="M48 58 H128" stroke="#FF5C35" stroke-width="3"/>
+  <text x="48" y="101" fill="#8AE9C1" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="14" font-weight="700" letter-spacing="3">04 / WINDOWS UTILITY</text>
+  <text x="48" y="154" fill="#F4F1EA" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="46" font-weight="800" letter-spacing="-1">QuickAudio</text>
+  <text x="48" y="188" fill="#8F999D" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="15">ONE SHORTCUT. THE RIGHT OUTPUT.</text>
+  <rect x="637" y="70" width="115" height="30" rx="4" fill="#111917" stroke="#8AE9C1"/>
+  <text x="694" y="90" text-anchor="middle" fill="#8AE9C1" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1">TAURI V2</text>
+
+  <g transform="translate(48 224)">
+    <rect x="0" y="0" width="704" height="196" rx="8" fill="#0F1315" stroke="#343C3F"/>
+    <text x="20" y="27" fill="#677075" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="9" letter-spacing="1">AUDIO ROUTER</text>
+
+    <rect x="20" y="44" width="170" height="112" rx="5" fill="#111719" stroke="#343C3F"/>
+    <text x="34" y="63" fill="#687277" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="8">SYSTEM OUTPUT</text>
+    <path d="M34 107 H59 L74 89 L89 127 L104 96 L119 118 L134 83 L149 105 H176" fill="none" stroke="#FF5C35" stroke-width="2.5"/>
+    <text x="34" y="141" fill="#9CA5A9" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="8">ACTIVE / SPEAKERS</text>
+
+    <path d="M190 100 H246" stroke="#4B5559"/>
+    <circle cx="218" cy="100" r="15" fill="#101416" stroke="#8AE9C1"/>
+    <path d="M212 100 H224 M218 94 V106" stroke="#8AE9C1" stroke-width="2"/>
+
+    <rect x="246" y="44" width="202" height="112" rx="5" fill="#111719" stroke="#FF5C35"/>
+    <text x="262" y="63" fill="#FF7554" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="8" letter-spacing="1">WINDOWS CORE AUDIO</text>
+    <rect x="262" y="77" width="170" height="26" rx="3" fill="#171C1F"/>
+    <text x="273" y="94" fill="#F4F1EA" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="9">IPolicyConfig</text>
+    <path d="M262 116 H432" stroke="#343C3F"/>
+    <text x="262" y="134" fill="#7D878B" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="8">SetDefaultEndpoint()</text>
+    <circle cx="424" cy="88" r="4" fill="#8AE9C1"/>
+
+    <path d="M448 100 H488" stroke="#4B5559"/>
+    <path d="M481 94 L489 100 L481 106" fill="none" stroke="#4B5559"/>
+
+    <rect x="488" y="44" width="196" height="112" rx="5" fill="#111719" stroke="#343C3F"/>
+    <text x="502" y="63" fill="#687277" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="8">ROUTE TO</text>
+    <circle cx="512" cy="88" r="8" fill="none" stroke="#8AE9C1" stroke-width="2"/>
+    <path d="M512 80 V71 M512 96 V105" stroke="#8AE9C1" stroke-width="2"/>
+    <text x="530" y="92" fill="#F4F1EA" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700">Headphones</text>
+    <circle cx="512" cy="123" r="8" fill="none" stroke="#4B5559" stroke-width="2"/>
+    <path d="M512 115 V106 M512 131 V140" stroke="#4B5559" stroke-width="2"/>
+    <text x="530" y="127" fill="#8F999D" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="12">Desk speakers</text>
+
+    <rect x="20" y="166" width="322" height="16" rx="3" fill="#151A1D"/>
+    <rect x="20" y="166" width="211" height="16" rx="3" fill="#FF5C35" opacity="0.76"/>
+    <text x="360" y="178" fill="#687277" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="8">LIVE ROUTING</text>
+
+    <g transform="translate(500 166)">
+      <rect x="0" y="0" width="44" height="16" rx="3" fill="#171C1F" stroke="#465156"/>
+      <rect x="48" y="0" width="54" height="16" rx="3" fill="#171C1F" stroke="#465156"/>
+      <rect x="106" y="0" width="48" height="16" rx="3" fill="#171C1F" stroke="#465156"/>
+      <text x="22" y="11" text-anchor="middle" fill="#D6DBDD" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="7">ALT</text>
+      <text x="75" y="11" text-anchor="middle" fill="#D6DBDD" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="7">SHIFT</text>
+      <text x="130" y="11" text-anchor="middle" fill="#FF7554" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="7" font-weight="700">A</text>
+    </g>
+  </g>
+
+  <text x="48" y="468" fill="#687277" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="12" letter-spacing="1.5">TAURI V2  /  RUST  /  CORE AUDIO COM  /  ALT + SHIFT + A</text>
+</svg>

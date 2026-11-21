@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Velox project visual</title>
+  <desc id="desc">A minimal browser layout engine diagram built from nested boxes and rendering stages.</desc>
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.7" fill="#343C3F"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" rx="18" fill="#0B0E10"/>
+  <rect x="1" y="1" width="798" height="498" rx="17" fill="none" stroke="#2B3235"/>
+  <rect width="800" height="500" rx="18" fill="url(#dots)" opacity="0.32"/>
+
+  <path d="M48 58 H128" stroke="#FF5C35" stroke-width="3"/>
+  <text x="48" y="101" fill="#8AE9C1" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="14" font-weight="700" letter-spacing="3">01 / LAYOUT ENGINE</text>
+  <text x="48" y="154" fill="#F4F1EA" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="46" font-weight="800" letter-spacing="-1">Velox</text>
+  <text x="48" y="188" fill="#8F999D" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="15">FROM FIRST PRINCIPLES. ZERO DEPENDENCIES.</text>
+  <rect x="642" y="70" width="110" height="30" rx="4" fill="#151A1D" stroke="#FF5C35"/>
+  <text x="697" y="90" text-anchor="middle" fill="#FF7554" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1">RUST ONLY</text>
+
+  <g transform="translate(48 224)">
+    <rect x="0" y="0" width="704" height="196" rx="8" fill="#0F1315" stroke="#343C3F"/>
+    <path d="M0 38 H704" stroke="#343C3F"/>
+    <circle cx="20" cy="19" r="4" fill="#FF5C35"/>
+    <circle cx="36" cy="19" r="4" fill="#4A5357"/>
+    <circle cx="52" cy="19" r="4" fill="#4A5357"/>
+    <rect x="76" y="10" width="242" height="18" rx="3" fill="#171C1F"/>
+    <text x="87" y="23" fill="#687277" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="9">velox://render/document</text>
+
+    <path d="M0 38 V196" stroke="#343C3F"/>
+    <path d="M156 38 V196" stroke="#343C3F"/>
+    <path d="M576 38 V196" stroke="#343C3F"/>
+
+    <text x="20" y="62" fill="#677075" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="9" letter-spacing="1">NODE TREE</text>
+    <path d="M24 79 V150 H60" fill="none" stroke="#4B5559"/>
+    <path d="M42 105 V126 H60" fill="none" stroke="#4B5559"/>
+    <path d="M42 105 V150 H60" fill="none" stroke="#4B5559"/>
+    <rect x="64" y="72" width="65" height="13" rx="2" fill="#FF5C35" opacity="0.9"/>
+    <rect x="64" y="99" width="56" height="11" rx="2" fill="#354044"/>
+    <rect x="64" y="120" width="64" height="11" rx="2" fill="#354044"/>
+    <rect x="64" y="145" width="50" height="11" rx="2" fill="#354044"/>
+    <circle cx="136" cy="78" r="3" fill="#8AE9C1"/>
+
+    <rect x="188" y="62" width="350" height="112" rx="5" fill="#151A1D" stroke="#FF5C35"/>
+    <text x="201" y="80" fill="#FF7554" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="9" letter-spacing="1">BODY / BLOCK</text>
+    <rect x="204" y="92" width="318" height="66" rx="3" fill="#101416" stroke="#485256"/>
+    <text x="216" y="108" fill="#9CA5A9" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="8">HEADER</text>
+    <rect x="216" y="116" width="98" height="30" rx="3" fill="#1A2023" stroke="#394245"/>
+    <text x="228" y="134" fill="#8AE9C1" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="8">INLINE</text>
+    <rect x="328" y="116" width="178" height="30" rx="3" fill="#1A2023" stroke="#394245"/>
+    <text x="340" y="134" fill="#9CA5A9" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="8">FLOW ROOT</text>
+
+    <text x="596" y="62" fill="#677075" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="9" letter-spacing="1">PIPELINE</text>
+    <circle cx="612" cy="90" r="6" fill="#FF5C35"/>
+    <path d="M612 96 V116" stroke="#4B5559"/>
+    <circle cx="612" cy="122" r="6" fill="#8AE9C1"/>
+    <path d="M612 128 V148" stroke="#4B5559"/>
+    <circle cx="612" cy="154" r="6" fill="#F4F1EA"/>
+    <text x="628" y="94" fill="#BBC2C4" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="7">PARSE</text>
+    <text x="628" y="126" fill="#BBC2C4" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="7">LAYOUT</text>
+    <text x="628" y="158" fill="#BBC2C4" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="7">PAINT</text>
+  </g>
+
+  <text x="48" y="468" fill="#687277" font-family="'IBM Plex Mono','Cascadia Code',Consolas,monospace" font-size="12" letter-spacing="1.5">RUST  /  NO EXTERNAL ENGINE  /  FIRST-PRINCIPLES IMPLEMENTATION</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ray Cheung: systems programming, browser internals, and security</title>
+  <desc id="desc">A technical identity banner with a minimal layout engine diagram.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#242A2D" stroke-width="1"/>
+    </pattern>
+    <pattern id="microGrid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.7" fill="#31383B"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="520" rx="20" fill="#0B0E10"/>
+  <rect x="1" y="1" width="1598" height="518" rx="19" fill="none" stroke="#2B3235"/>
+  <rect x="0" y="0" width="1600" height="520" rx="20" fill="url(#grid)" opacity="0.48"/>
+  <rect x="0" y="0" width="1600" height="520" rx="20" fill="url(#microGrid)" opacity="0.22"/>
+
+  <path d="M80 82 H460" stroke="#FF5C35" stroke-width="3"/>
+  <circle cx="80" cy="82" r="6" fill="#FF5C35"/>
+  <text x="80" y="126" fill="#8AE9C1" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="17" font-weight="700" letter-spacing="4">SOFTWARE ENGINEER / SYSTEMS &amp; SECURITY</text>
+
+  <text x="76" y="260" fill="#F4F1EA" font-family="Inter,'Segoe UI',Arial,sans-serif" font-size="112" font-weight="800" letter-spacing="-5">RAY CHEUNG</text>
+  <text x="80" y="312" fill="#A8B0B4" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="21" font-weight="500" letter-spacing="1.5">SYSTEMS PROGRAMMING  /  BROWSER INTERNALS  /  SECURITY</text>
+
+  <path d="M80 356 H720" stroke="#31383B" stroke-width="1"/>
+  <text x="80" y="396" fill="#F4F1EA" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="16" font-weight="700" letter-spacing="2">RUST</text>
+  <text x="166" y="396" fill="#677075" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="16">/</text>
+  <text x="198" y="396" fill="#F4F1EA" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="16" font-weight="700" letter-spacing="2">C++</text>
+  <text x="262" y="396" fill="#677075" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="16">/</text>
+  <text x="294" y="396" fill="#F4F1EA" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="16" font-weight="700" letter-spacing="2">TYPESCRIPT</text>
+  <text x="444" y="396" fill="#677075" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="16">/</text>
+  <text x="476" y="396" fill="#F4F1EA" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="16" font-weight="700" letter-spacing="2">SWIFT</text>
+  <text x="576" y="396" fill="#677075" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="16">/</text>
+  <text x="608" y="396" fill="#F4F1EA" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="16" font-weight="700" letter-spacing="2">LINUX</text>
+
+  <text x="80" y="456" fill="#677075" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="15" letter-spacing="1">@RayCheungCheung</text>
+  <text x="1520" y="456" text-anchor="end" fill="#677075" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="13" letter-spacing="1.5">LAYOUT / PAINT / SYSTEM / SECURITY</text>
+
+  <g transform="translate(1054 92)">
+    <rect x="0" y="0" width="454" height="336" rx="12" fill="#0E1214" stroke="#343C3F"/>
+    <path d="M0 48 H454" stroke="#2A3033"/>
+    <circle cx="22" cy="24" r="5" fill="#FF5C35"/>
+    <circle cx="42" cy="24" r="5" fill="#4F585C"/>
+    <circle cx="62" cy="24" r="5" fill="#4F585C"/>
+    <text x="410" y="29" text-anchor="end" fill="#667075" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="12" letter-spacing="1">ENGINE.SVG</text>
+
+    <rect x="38" y="82" width="378" height="214" rx="6" fill="#0B0E10" stroke="#343C3F"/>
+    <path d="M155 82 V296" stroke="#252C2F"/>
+    <path d="M38 124 H416" stroke="#252C2F"/>
+
+    <circle cx="60" cy="104" r="5" fill="#8AE9C1"/>
+    <text x="76" y="109" fill="#A8B0B4" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="11">DOCUMENT</text>
+    <path d="M62 124 V158 H144" fill="none" stroke="#4B5559"/>
+    <path d="M62 158 V192 H144" fill="none" stroke="#4B5559"/>
+    <path d="M62 192 V226 H144" fill="none" stroke="#4B5559"/>
+    <rect x="82" y="142" width="62" height="12" rx="2" fill="#30383B"/>
+    <rect x="82" y="176" width="48" height="12" rx="2" fill="#30383B"/>
+    <rect x="82" y="210" width="68" height="12" rx="2" fill="#30383B"/>
+
+    <rect x="181" y="105" width="202" height="57" rx="4" fill="#151A1D" stroke="#FF5C35"/>
+    <text x="197" y="127" fill="#FF7554" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="10" letter-spacing="1">01 / LAYOUT</text>
+    <path d="M197 143 H278 M294 143 H365" stroke="#4B5559"/>
+
+    <rect x="181" y="181" width="202" height="55" rx="4" fill="#111719" stroke="#8AE9C1"/>
+    <text x="197" y="203" fill="#8AE9C1" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="10" letter-spacing="1">02 / PAINT</text>
+    <path d="M197 218 H365" stroke="#4B5559"/>
+
+    <rect x="181" y="255" width="202" height="20" rx="4" fill="#151A1D" stroke="#343C3F"/>
+    <text x="197" y="269" fill="#899398" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="9" letter-spacing="1">03 / PRESENT</text>
+
+    <path d="M482 132 H520" stroke="#FF5C35"/>
+    <circle cx="520" cy="132" r="3" fill="#FF5C35"/>
+    <text x="490" y="122" fill="#6F797D" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="9">RENDER</text>
+
+    <path d="M482 224 H520" stroke="#8AE9C1"/>
+    <circle cx="520" cy="224" r="3" fill="#8AE9C1"/>
+    <text x="490" y="214" fill="#6F797D" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="9">STYLE</text>
+
+    <path d="M482 316 H520" stroke="#687277"/>
+    <circle cx="520" cy="316" r="3" fill="#687277"/>
+    <text x="490" y="306" fill="#6F797D" font-family="'IBM Plex Mono','Cascadia Code','SFMono-Regular',Consolas,monospace" font-size="9">INPUT</text>
+  </g>
+
+  <path d="M1020 82 V424" stroke="#2B3235"/>
+  <path d="M1020 82 H1042 M1020 253 H1042 M1020 424 H1042" stroke="#FF5C35"/>
+</svg>
